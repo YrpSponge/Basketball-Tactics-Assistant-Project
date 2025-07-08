@@ -1,0 +1,9 @@
+*.pt
+*.avi
+*.npy
+
+dataset/
+
+stubs/
+
+runs/
