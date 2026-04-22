@@ -52,6 +52,9 @@ We process monocular basketball video clips and reconstruct the match into a 3D 
 
 In the current implementation, we use [**EasyMocap**](https://github.com/zju3dv/EasyMocap) as a practical solution for reconstruction, applying a single-person pipeline multiple times to obtain preliminary multi-player results.
 
+![single player reconstruction](assets/demo_easy_mocap_single_player.mp4)
+
+
 ### 2. Unity-Based Interactive Review
 Based on the formative study, we designed a Unity prototype that supports:
 - **perspective switching** between player and global views
@@ -111,7 +114,7 @@ This project was inspired by and built upon several excellent open-source projec
 - [CoMotion](https://github.com/apple/ml-comotion)
 - [WHAM](https://github.com/yohanshin/WHAM)
 
-We sincerely thank the authors and contributors of these projects for making their work publicly available. EasyMocap is maintained in the `zju3dv/EasyMocap` repository, and 4D-Humans is maintained in the `shubham-goel/4D-Humans` repository. :contentReference[oaicite:1]{index=1}
+We sincerely thank the authors and contributors of these projects for making their work publicly available.
 
 ---
 
